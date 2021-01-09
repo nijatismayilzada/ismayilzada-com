@@ -9,7 +9,9 @@ mainpitch:
   description: test
 description: test
 intro:
-  blurbs: []
+  blurbs:
+    - image: /img/blog-index.jpg
+      text: test
   heading: test
   description: test
 main:
