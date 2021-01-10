@@ -83,10 +83,6 @@ body {
   color: var(--color-text);
 }
 
-footer {
-  padding: var(--spacing-6) var(--spacing-0);
-}
-
 hr {
   background: var(--color-accent);
   height: 1px;
@@ -293,13 +289,6 @@ a:focus {
 
 .bio p {
   margin-bottom: var(--spacing-0);
-}
-
-.bio-avatar {
-  margin-right: var(--spacing-4);
-  margin-bottom: var(--spacing-0);
-  min-width: 50px;
-  border-radius: 100%;
 }
 
 .blog-post header h1 {
