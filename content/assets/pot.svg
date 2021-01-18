@@ -1,12 +1,20 @@
-<svg width="800" height="801" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="900" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="902" width="902" y="-1" x="-1"/>
+ </g>
  <g>
   <title>Layer 1</title>
-  <rect rx="46" id="svg_1" height="397" width="604" y="302.49999" x="98" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#343c3d"/>
-  <rect stroke="#000" rx="18" id="svg_2" height="320.00001" width="604" y="289.5" x="98" stroke-opacity="null" stroke-width="0" fill="#343c3d"/>
-  <ellipse stroke="#000" ry="56" rx="300.99999" id="svg_4" cy="227.24999" cx="399.99999" stroke-opacity="null" stroke-width="0" fill="#058e75"/>
-  <rect stroke="#000" rx="18" id="svg_3" height="72.00001" width="604" y="211.5" x="98" stroke-opacity="null" stroke-width="0" fill="#058e75"/>
-  <rect stroke="#000" rx="17" id="svg_7" height="52" width="154" y="115.75" x="323" stroke-opacity="null" stroke-width="0" fill="#343c3d"/>
-  <rect stroke="#000" rx="17" id="svg_8" height="54" width="100" y="373.5" x="14" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#343c3d"/>
-  <rect stroke="#000" rx="17" id="svg_10" height="54" width="100" y="373.5" x="687" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#343c3d"/>
+  <g id="svg_13">
+   <ellipse stroke="#000" ry="450" rx="450" id="svg_9" cy="449.99999" cx="450.00003" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+   <rect fill="#343c3d" stroke="#000" stroke-width="0" stroke-opacity="null" x="147.50006" y="344.87499" width="604" height="397" id="svg_1" rx="46"/>
+   <rect fill="#343c3d" stroke-width="0" stroke-opacity="null" x="147.50006" y="331.875" width="604" height="320.00001" id="svg_2" rx="18" stroke="#000"/>
+   <ellipse fill="#058e75" stroke-width="0" stroke-opacity="null" cx="449.50005" cy="269.62499" id="svg_4" rx="300.99999" ry="56" stroke="#000"/>
+   <rect fill="#058e75" stroke-width="0" stroke-opacity="null" x="147.50006" y="253.875" width="604" height="72.00001" id="svg_3" rx="18" stroke="#000"/>
+   <rect fill="#343c3d" stroke-width="0" stroke-opacity="null" x="372.50006" y="158.125" width="154" height="52" id="svg_7" rx="17" stroke="#000"/>
+   <rect fill="#343c3d" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="63.50006" y="415.875" width="100" height="54" id="svg_8" rx="17" stroke="#000"/>
+   <rect fill="#343c3d" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="736.50006" y="415.875" width="100" height="54" id="svg_10" rx="17" stroke="#000"/>
+  </g>
  </g>
 </svg>
