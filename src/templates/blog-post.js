@@ -3,27 +3,30 @@ import {graphql} from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const BlogPostTemplate = ({data, location}) => {
+const BlogPostTemplate = ({data}) => {
     const post = data.markdownRemark
     const siteTitle = data.site.siteMetadata?.title || `Title`
 
     return (
-        <Layout location={location} title={siteTitle}>
+        <Layout title={siteTitle}>
             <SEO
                 title={post.frontmatter.title}
                 description={post.frontmatter.description}/>
-            <article
-                className="blog-post"
-                itemScope
-                itemType="http://schema.org/Article">
-                <header>
-                    <h1 itemProp="headline">{post.frontmatter.title}</h1>
-                    <p>{post.frontmatter.date}</p>
-                </header>
-                <section dangerouslySetInnerHTML={{__html: post.html}}
-                         itemProp="articleBody"/>
-                <hr/>
-            </article>
+            <div className="box">
+                <article className="media">
+                    <div className="media-content">
+                        <div className="content  has-text-light">
+
+                            <h3 className="title is-3">{post.frontmatter.title}</h3>
+                            <h6 className="subtitle is-6">{post.frontmatter.date}</h6>
+
+                            <p dangerouslySetInnerHTML={{__html: post.html}}
+                               itemProp="articleBody"/>
+
+                        </div>
+                    </div>
+                </article>
+            </div>
         </Layout>
     )
 }

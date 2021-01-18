@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+$link: #85c7bb;
+$link-hover: #058e75;
+$content-heading-color: #f5f5f5;
+$box-background-color: #343c3d;
+$body-background-color: #1f2424;
+$table-background-color: $body-background-color;
+$table-cell-border: 0;
+
+@import "~bulma/bulma.sass";

@@ -1,42 +1,40 @@
 import React from "react"
 import {graphql, Link} from "gatsby"
-
-import Bio from "../components/bio"
+import "../styles/mystyles.scss"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const BlogIndex = ({data, location}) => {
+const BlogIndex = ({data}) => {
     const siteTitle = data.site.siteMetadata?.title || `Title`
     const posts = data.allMarkdownRemark.nodes
 
     return (
-        <Layout location={location} title={siteTitle}>
+        <Layout title={siteTitle}>
             <SEO title="All posts"/>
-            <Bio/>
             <ol style={{listStyle: `none`}}>
                 {posts.map(post => {
                     const title = post.frontmatter.title || post.fields.slug
 
                     return (
                         <li key={post.fields.slug}>
-                            <article
-                                className="post-list-item"
-                                itemScope
-                                itemType="http://schema.org/Article">
-                                <header>
-                                    <h2>
-                                        <Link to={post.fields.slug} itemProp="url">
-                                            <span itemProp="headline">{title}</span>
-                                        </Link>
-                                    </h2>
-                                    <small>{post.frontmatter.date}</small>
-                                </header>
-                                <section>
-                                    <p dangerouslySetInnerHTML={{__html: post.frontmatter.description}}
-                                       itemProp="description"/>
-                                </section>
-                            </article>
-                        </li>)
+                            <div className="box my-4">
+                                <article className="media">
+                                    <div className="media-content">
+                                        <div className="content has-text-light">
+                                            <Link to={post.fields.slug} itemProp="url">
+                                                <strong>{title}</strong>
+                                            </Link>
+                                            <br/>
+                                            <small>{post.frontmatter.date}</small>
+                                            <br/>
+                                            <p dangerouslySetInnerHTML={{__html: post.frontmatter.description}}
+                                               itemProp="description"/>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </li>
+                    )
                 })}
             </ol>
         </Layout>

@@ -1,31 +1,68 @@
 import React from "react"
-import { Link } from "gatsby"
+import {Link} from "gatsby"
+import github from "../../content/assets/github.svg";
+import linkedin from "../../content/assets/linkedin.svg";
+import email from "../../content/assets/email.svg";
 
-const Layout = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`
-  const isRootPath = location.pathname === rootPath
-  let header
+const Layout = ({title, children}) => {
 
-  if (isRootPath) {
-    header = (
-      <h1 className="main-heading">
-        <Link to="/">{title}</Link>
-      </h1>
+    return (
+        <>
+            <section className="section">
+                <div className="container is-max-desktop">
+                    <nav className="level">
+
+                        <div className="level-left">
+                            <div className="level-item">
+                                <Link className="is-size-3" to="/">
+                                    {title}
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className="level-right">
+                            <div className="level-item">
+                                <table className="table is-narrow">
+                                    <tr>
+                                        <td>
+                                            <a href="https://github.com/nijatismayilzada">
+                                                <figure className="image is-32x32 is-centered">
+                                                    <img src={github} alt="github"/>
+                                                </figure>
+                                            </a>
+                                        </td>
+                                        <td>
+
+
+                                            <a href="https://linkedin.com/in/nijatismayilzada">
+                                                <figure className="image is-32x32">
+                                                    <img src={linkedin} alt="linkedin"/>
+                                                </figure>
+                                            </a>
+                                        </td>
+                                        <td>
+
+                                            <a href="mailto:nijat@ismayilzada.com">
+                                                <figure className="image is-32x32">
+                                                    <img src={email} alt="email"/>
+                                                </figure>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+
+            <section className="section">
+                <div className="container is-max-desktop">
+                    <main>{children}</main>
+                </div>
+            </section>
+        </>
     )
-  } else {
-    header = (
-      <Link className="header-link-home" to="/">
-        {title}
-      </Link>
-    )
-  }
-
-  return (
-    <div className="global-wrapper" data-is-root-path={isRootPath}>
-      <header className="global-header">{header}</header>
-      <main>{children}</main>
-    </div>
-  )
 }
 
 export default Layout
