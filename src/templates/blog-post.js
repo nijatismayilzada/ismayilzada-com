@@ -9,7 +9,7 @@ const BlogPostTemplate = ({data}) => {
     const siteTitle = data.site.siteMetadata.title
 
     let disqusConfig = {
-        url: `${data.site.siteMetadata.suteUrl + post.fields.slug}`,
+        url: `${data.site.siteMetadata.siteUrl + post.fields.slug}`,
         identifier: post.id,
         title: post.frontmatter.title,
     }

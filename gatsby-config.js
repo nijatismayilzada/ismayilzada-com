@@ -5,7 +5,7 @@ module.exports = {
             name: `Nijat Ismayilzada`,
         },
         description: `technology blog`,
-        siteUrl: `https://ismayilzada.com/`,
+        siteUrl: `https://ismayilzada.com`,
     },
     plugins: [
         {
