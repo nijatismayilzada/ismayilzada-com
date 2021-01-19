@@ -2,10 +2,17 @@ import React from "react"
 import {graphql} from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import {CommentCount, Disqus} from 'gatsby-plugin-disqus'
 
 const BlogPostTemplate = ({data}) => {
     const post = data.markdownRemark
-    const siteTitle = data.site.siteMetadata?.title || `Title`
+    const siteTitle = data.site.siteMetadata.title
+
+    let disqusConfig = {
+        url: `${data.site.siteMetadata.suteUrl + post.fields.slug}`,
+        identifier: post.id,
+        title: post.frontmatter.title,
+    }
 
     return (
         <Layout title={siteTitle}>
@@ -26,6 +33,8 @@ const BlogPostTemplate = ({data}) => {
                         </div>
                     </div>
                 </article>
+                <CommentCount config={disqusConfig} placeholder={'...'}/>
+                <Disqus config={disqusConfig}/>
             </div>
         </Layout>
     )
@@ -39,12 +48,16 @@ export const pageQuery = graphql`
   ) {
     site {
       siteMetadata {
+        siteUrl
         title
       }
     }
     markdownRemark(id: { eq: $id }) {
       id
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")

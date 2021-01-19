@@ -47,6 +47,12 @@ module.exports = {
         `gatsby-plugin-sharp`,
         `gatsby-plugin-sass`,
         {
+            resolve: `gatsby-plugin-disqus`,
+            options: {
+                shortname: `ismayilzada-com`
+            }
+        },
+        {
             resolve: `gatsby-plugin-google-gtag`,
             options: {
                 // You can add multiple tracking ids and a pageview event will be fired for all of them.
