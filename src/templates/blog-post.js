@@ -2,7 +2,7 @@ import React from "react"
 import {graphql} from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import {CommentCount, Disqus} from 'gatsby-plugin-disqus'
+import {Disqus} from 'gatsby-plugin-disqus'
 
 const BlogPostTemplate = ({data}) => {
     const post = data.markdownRemark
@@ -33,7 +33,9 @@ const BlogPostTemplate = ({data}) => {
                         </div>
                     </div>
                 </article>
-                <CommentCount config={disqusConfig} placeholder={'...'}/>
+                <br/>
+                <br/>
+                <hr/>
                 <Disqus config={disqusConfig}/>
             </div>
         </Layout>
