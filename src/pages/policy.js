@@ -3,9 +3,9 @@ import React from 'react'
 export default function Policy() {
     return (
         <section className="section">
-            <div className="container is-max-desktop has-text-light">
+            <div className="container is-max-desktop">
                 <div className="box">
-                    <div className="content">
+                    <div className="content has-text-light">
                         <h1>Privacy Policy</h1>
                         <p>Your privacy is important to us. It is Nijat Ismayilzada's policy to respect your privacy
                             regarding
