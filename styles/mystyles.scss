@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-$link-hover: #058e75;
 $content-heading-color: #f5f5f5;
 $table-cell-border: 0;
 
@@ -13,7 +12,11 @@ body,
 }
 
 body a {
-    color: #85c7bb
+    color: #058e75
+}
+
+body a:hover {
+    color: #bdcece
 }
 
 body .table {
@@ -40,7 +43,11 @@ body.light,
 }
 
 body.light a {
-    color: #09472a
+    color: #1d8b1a
+}
+
+body.light a:hover {
+    color: #363636
 }
 
 body.light .table {
@@ -48,9 +55,12 @@ body.light .table {
 }
 
 body.light .content,
-body.light .title,
+body.light .title {
+    color: #363636;
+}
+
 body.light .subtitle {
-    color: #4a4a4a;
+    color: #7a7a7a;
 }
 
 
