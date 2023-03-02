@@ -3,8 +3,14 @@ import Header from '../components/header'
 import Seo from '../components/seo'
 import PostPreview from '../components/post-preview'
 import { getAllPosts, generateRss } from '../lib/api'
+import { useEffect } from "react";
 
 export default function Index({ allPosts }) {
+
+  useEffect(() => {
+    var body = document.querySelector('body');
+    body.className = ""
+  }, []);
   const seo = {
     metaTitle: "ismayilzada.com",
     metaDescription: "nijat ismayilzada's blog",

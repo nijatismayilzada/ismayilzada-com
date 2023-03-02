@@ -1,11 +1,64 @@
 @charset "utf-8";
 
-$link: #85c7bb;
 $link-hover: #058e75;
 $content-heading-color: #f5f5f5;
-$box-background-color: #343c3d;
-$body-background-color: #1f2424;
-$table-background-color: $body-background-color;
 $table-cell-border: 0;
+
+html, 
+body, 
+#background { 
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #1f2424;
+}
+
+body a {
+    color: #85c7bb
+}
+
+body .table {
+    background-color: #1f2424;
+}
+
+body .content,
+body .title,
+body .subtitle  {
+    color: #bdcece;
+}
+
+
+body .box {
+    background-color: #343c3d;
+}
+
+html, 
+body.light, 
+#background { 
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+body.light a {
+    color: #09472a
+}
+
+body.light .table {
+    background-color: #ffffff;
+}
+
+body.light .content,
+body.light .title,
+body.light .subtitle {
+    color: #4a4a4a;
+}
+
+
+body.light .box {
+    background-color: #f5f5f5;
+}
+
+
+
 
 @import "~bulma/bulma.sass";
