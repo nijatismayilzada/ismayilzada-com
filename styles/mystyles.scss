@@ -1,71 +1,82 @@
 @charset "utf-8";
 
-$content-heading-color: #f5f5f5;
+$pot-black: #1f2424;
+$pot-blackllight: #343c3d;
+$pot-greenblue: #058e75;
+$pot-green: #1d8b1a;
+$pot-graydark: #7a7a7a;
+$pot-gray: #bdcece;
+$pot-white: #ffffff;
+$pot-cream: #f5f5f5;
 $table-cell-border: 0;
 
-html, 
-body, 
-#background { 
-  width: 100vw;
-  min-height: 100vh;
-  background-color: #1f2424;
-}
+// DARK MODE
 
-body a {
-    color: #058e75
-}
 
-body a:hover {
-    color: #bdcece
+html,
+body,
+#background {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: $pot-black;
 }
 
 body .table {
-    background-color: #1f2424;
+    background-color: $pot-black;
+}
+
+body a {
+    color: $pot-greenblue
+}
+
+body a:hover {
+    color: $pot-gray
 }
 
 body .content,
 body .title,
-body .subtitle  {
-    color: #bdcece;
+body .subtitle {
+    color: $pot-gray;
 }
-
 
 body .box {
-    background-color: #343c3d;
+    background-color: $pot-blackllight;
 }
 
-html, 
-body.light, 
-#background { 
-  width: 100vw;
-  min-height: 100vh;
-  background-color: #ffffff;
-}
 
-body.light a {
-    color: #1d8b1a
-}
+// LIGHT MODE
 
-body.light a:hover {
-    color: #363636
+html,
+body.light,
+#background {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: $pot-white;
 }
 
 body.light .table {
-    background-color: #ffffff;
+    background-color: $pot-white;
+}
+
+body.light a {
+    color: $pot-green
+}
+
+body.light a:hover {
+    color: $pot-black
 }
 
 body.light .content,
 body.light .title {
-    color: #363636;
+    color: $pot-black;
 }
 
 body.light .subtitle {
-    color: #7a7a7a;
+    color: $pot-graydark;
 }
 
-
 body.light .box {
-    background-color: #f5f5f5;
+    background-color: $pot-cream;
 }
 
 

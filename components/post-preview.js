@@ -15,7 +15,7 @@ export default function PostPreview({
           <div className="media-content">
             <div className="content has-text-light">
               <Link as={`/posts/${slug}`} href="/posts/[slug]">
-                <a><strong>{title}</strong></a>
+                <p><strong>{title}</strong></p>
               </Link>
               <br />
               <small>

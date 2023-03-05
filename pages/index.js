@@ -6,10 +6,20 @@ import { getAllPosts, generateRss } from '../lib/api'
 import { useEffect } from "react";
 
 export default function Index({ allPosts }) {
-
+  
   useEffect(() => {
     var body = document.querySelector('body');
-    body.className = ""
+
+    const toggle = document.getElementById('toggle');
+
+  toggle.addEventListener("click", () => {
+      const bodyCheck = body.classList.contains('light');
+      if (bodyCheck) {
+          body.className = ""
+      } else {
+          body.className = "light"
+    }
+  })
   }, []);
   const seo = {
     metaTitle: "ismayilzada.com",

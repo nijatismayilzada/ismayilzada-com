@@ -1,6 +1,5 @@
 import Container from '../components/container'
 import Seo from '../components/seo'
-import Link from 'next/link'
 import { useEffect } from "react";
 
 
@@ -19,15 +18,6 @@ export default function ThePot() {
         <>
             <Seo seo={seo} />
             <Container>
-                {/* <nav className="level">
-                    <div className="level-left">
-                        <div className="level-item">
-                            <Link href="/">
-                                <a className="is-size-3">NIJAT ISMAYILZADA</a>
-                            </Link>
-                        </div>
-                    </div>
-                </nav> */}
                 <div className="columns">
                     <div className="column is-4">
                         <div className="box">
