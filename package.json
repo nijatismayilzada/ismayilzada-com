@@ -11,16 +11,16 @@
     "bulma": "^0.9.4",
     "date-fns": "2.29.3",
     "gray-matter": "4.0.3",
-    "next": "^13.2.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "next": "^15.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "remark": "14.0.2",
     "remark-html": "15.0.2",
     "sass": "^1.58.3",
     "unified": "^10.1.2"
   },
   "devDependencies": {
-    "eslint": "8.4.1",
-    "eslint-config-next": "^13.2.3"
+    "eslint": "^8.4.1",
+    "eslint-config-next": "^15.0.1"
   }
 }
