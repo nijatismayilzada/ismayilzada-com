@@ -1,5 +1,6 @@
 @charset "utf-8";
 @use "sass:meta";
+@use "bulma/sass";
 
 $pot-black: #1f2424;
 $pot-blackllight: #343c3d;
@@ -79,8 +80,3 @@ body.light .subtitle {
 body.light .box {
     background-color: $pot-cream;
 }
-
-
-
-
-@include meta.load-css("~bulma/bulma.sass");

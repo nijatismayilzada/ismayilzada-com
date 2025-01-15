@@ -196,6 +196,11 @@ export default function ThePot() {
                                             className="tag is-dark is-rounded">Golang</span> architecture.
                                         </li>
                                         <li>
+                                            Built an application that used <span
+                                            className="tag is-dark is-rounded">OpenAI GPT-2/3 LLM</span> to understand
+                                            and act on user prompts.
+                                        </li>
+                                        <li>
                                             In User Generated Content team (reviews, ratings, etc.), built and
                                             maintained <span
                                             className="tag is-dark is-rounded">Golang</span> microservices on <span
