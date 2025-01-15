@@ -1,13 +1,8 @@
 import Container from '../components/container'
 import Seo from '../components/seo'
-import {useEffect} from "react";
 
 
 export default function ThePot() {
-    useEffect(() => {
-        var body = document.querySelector('body');
-        body.className = "light"
-    }, []);
     const seo = {
         metaTitle: "ismayilzada.com",
         metaDescription: "nijat ismayilzada's blog",
@@ -105,7 +100,7 @@ export default function ThePot() {
                             </div>
                         </div>
                         <div className="box is-shadowless">
-                            <div className="content  ">
+                            <div className="content">
                                 <h4 className="title is-4">EDUCATION</h4>
                                 <h6 className="title is-6"><a href="https://www.manchester.ac.uk/">The University of
                                     Manchester</a></h6>
@@ -132,7 +127,7 @@ export default function ThePot() {
                             </div>
                         </div>
                         <div className="box is-shadowless">
-                            <div className="content  ">
+                            <div className="content">
                                 <h4 className="title is-4">PROJECTS</h4>
                                 <h6 className="title is-6"><a
                                     href="https://github.com/nijatismayilzada/different-snake-game">Different Snake
@@ -180,7 +175,7 @@ export default function ThePot() {
                     <div className="column">
                         <article className="media">
                             <div className="media-content">
-                                <div className="content ">
+                                <div className="content">
 
                                     <h4 className="title is-4">EXPERIENCE</h4>
 

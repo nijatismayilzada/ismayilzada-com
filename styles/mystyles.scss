@@ -18,31 +18,31 @@ $table-cell-border: 0;
 html,
 body,
 #background {
-    width: 100vw;
-    min-height: 100vh;
-    background-color: $pot-black;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: $pot-black;
 }
 
 body .table {
-    background-color: $pot-black;
+  background-color: $pot-black;
 }
 
 body a {
-    color: $pot-greenblue
+  color: $pot-greenblue
 }
 
 body a:hover {
-    color: $pot-gray
+  color: $pot-gray
 }
 
 body .content,
 body .title,
 body .subtitle {
-    color: $pot-gray;
+  color: $pot-gray;
 }
 
 body .box {
-    background-color: $pot-blackllight;
+  background-color: $pot-blackllight;
 }
 
 
@@ -51,32 +51,32 @@ body .box {
 html,
 body.light,
 #background {
-    width: 100vw;
-    min-height: 100vh;
-    background-color: $pot-white;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: $pot-white;
 }
 
 body.light .table {
-    background-color: $pot-white;
+  background-color: $pot-white;
 }
 
 body.light a {
-    color: $pot-green
+  color: $pot-green
 }
 
 body.light a:hover {
-    color: $pot-black
+  color: $pot-black
 }
 
 body.light .content,
 body.light .title {
-    color: $pot-black;
+  color: $pot-black;
 }
 
 body.light .subtitle {
-    color: $pot-graydark;
+  color: $pot-graydark;
 }
 
 body.light .box {
-    background-color: $pot-cream;
+  background-color: $pot-cream;
 }
