@@ -24,7 +24,7 @@ export default function ThePot() {
                                 <div className="column is-2">
                                     <a href="https://ismayilzada.com">
                                         <figure className="image is-24x24 ">
-                                            <img src="/assets/pot-dark.svg" alt="pot"/>
+                                            <img src="/assets/pot.svg" alt="pot"/>
                                         </figure>
                                     </a>
                                 </div>
@@ -40,7 +40,7 @@ export default function ThePot() {
                                 <div className="column is-2">
                                     <a href="mailto:nijat@ismayilzada.com">
                                         <figure className="image is-24x24 ">
-                                            <img src="/assets/email-dark.svg" alt="email"/>
+                                            <img src="/assets/email.svg" alt="email"/>
                                         </figure>
                                     </a>
                                 </div>
@@ -56,7 +56,7 @@ export default function ThePot() {
                                 <div className="column is-2">
                                     <a href="https://github.com/nijatismayilzada">
                                         <figure className="image is-24x24 ">
-                                            <img src="/assets/github-dark.svg" alt="github"/>
+                                            <img src="/assets/github.svg" alt="github"/>
                                         </figure>
                                     </a>
                                 </div>
@@ -72,7 +72,7 @@ export default function ThePot() {
                                 <div className="column is-2">
                                     <a href="https://linkedin.com/in/nijatismayilzada">
                                         <figure className="image is-24x24 ">
-                                            <img src="/assets/linkedin-dark.svg" alt="linkedin"/>
+                                            <img src="/assets/linkedin.svg" alt="linkedin"/>
                                         </figure>
 
                                     </a>
@@ -88,7 +88,7 @@ export default function ThePot() {
                             <div className="columns is-gapless is-mobile">
                                 <div className="column is-2">
                                     <figure className="image is-24x24 ">
-                                        <img src="/assets/location-dark.svg" alt="location"/>
+                                        <img src="/assets/location.svg" alt="location"/>
                                     </figure>
 
                                 </div>

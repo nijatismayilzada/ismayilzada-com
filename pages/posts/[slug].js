@@ -8,7 +8,6 @@ import markdownToHtml from '../../lib/markdownToHtml'
 import DateFormatter from '../../components/date-formatter'
 
 export default function Post({post}) {
-
     const seo = {
         metaTitle: post.title,
         metaDescription: post.excerpt,
@@ -27,9 +26,9 @@ export default function Post({post}) {
             <Container>
                 <div className="box is-shadowless">
                     <article className="media">
-                        <div className="content has-text-light">
+                        <div className="content">
 
-                            <h3 className="title is-2">{post.title}</h3>
+                            <h3 className="title is-3">{post.title}</h3>
 
                             <small>
                                 <DateFormatter dateString={post.date}/>
@@ -37,7 +36,7 @@ export default function Post({post}) {
                             <br/>
                             <br/>
 
-                            <p className="has-text-light" dangerouslySetInnerHTML={{__html: post.content}}
+                            <p dangerouslySetInnerHTML={{__html: post.content}}
                                itemProp="articleBody"/>
 
                         </div>

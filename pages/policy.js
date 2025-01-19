@@ -18,7 +18,7 @@ export default function Policy() {
                 <div className="box">
                     <article className="media">
                         <div className="media-content">
-                            <div className="content  has-text-light">
+                            <div className="content">
                                 <h1 className="title is-1">Privacy Policy</h1>
                                 <p>Your privacy is important to us. It is Nijat Ismayilzada's policy to respect your
                                     privacy
@@ -86,8 +86,8 @@ export default function Policy() {
                                 <p>This policy is effective as of 10 May 2020.</p>
 
 
-                                <h2>Nijat Ismayilzada Terms of Service</h2>
-                                <h3>1. Terms</h3>
+                                <h2 className="title is-2">Nijat Ismayilzada Terms of Service</h2>
+                                <h3 className="title is-3">1. Terms</h3>
                                 <p>By accessing our app, Different Snake Game, you are agreeing to be bound by these
                                     terms of
                                     service,
@@ -107,7 +107,7 @@ export default function Policy() {
                                     contained in Different Snake Game are protected by applicable copyright and
                                     trademark
                                     law.</p>
-                                <h3>2. Use License</h3>
+                                <h3 className="title is-3">2. Use License</h3>
                                 <ol type="a">
                                     <li>Permission is granted to temporarily download one copy of Different Snake Game
                                         per
@@ -151,7 +151,7 @@ export default function Policy() {
                                         possession whether in electronic or printed format.
                                     </li>
                                 </ol>
-                                <h3>3. Disclaimer</h3>
+                                <h3 className="title is-3">3. Disclaimer</h3>
                                 <ol type="a">
                                     <li>The materials within Different Snake Game are provided on an 'as is' basis.
                                         Nijat
@@ -175,7 +175,7 @@ export default function Policy() {
                                         Game.
                                     </li>
                                 </ol>
-                                <h3>4. Limitations</h3>
+                                <h3 className="title is-3">4. Limitations</h3>
                                 <p>In no event shall Nijat Ismayilzada or its suppliers be liable for any damages
                                     (including,
                                     without
@@ -192,7 +192,7 @@ export default function Policy() {
                                     or
                                     limitations of liability for consequential or incidental damages, these limit
                                     ations may not apply to you.</p>
-                                <h3>5. Accuracy of materials</h3>
+                                <h3 className="title is-3">5. Accuracy of materials</h3>
                                 <p>The materials appearing in Different Snake Game could include technical,
                                     typographical, or
                                     photographic
@@ -204,7 +204,7 @@ export default function Policy() {
                                     contained in
                                     Different Snake Game at any time without notice. However Nijat Ismay
                                     ilzada does not make any commitment to update the materials.</p>
-                                <h3>6. Links</h3>
+                                <h3 className="title is-3">6. Links</h3>
                                 <p>Nijat Ismayilzada has not reviewed all of the sites linked to its app and is not
                                     responsible
                                     for the
@@ -214,14 +214,14 @@ export default function Policy() {
                                     sement by Nijat Ismayilzada of the site. Use of any such linked website is at the
                                     user's own
                                     risk.</p>
-                                <h3>7. Modifications</h3>
+                                <h3 className="title is-3">7. Modifications</h3>
                                 <p>Nijat Ismayilzada may revise these terms of service for its app at any time without
                                     notice.
                                     By using
                                     Different Snake
                                     Game you are agreeing to be bound by the then current version of
                                     these terms of service.</p>
-                                <h3>8. Governing Law</h3>
+                                <h3 className="title is-3">8. Governing Law</h3>
                                 <p>These terms and conditions are governed by and construed in accordance with the laws
                                     of
                                     United

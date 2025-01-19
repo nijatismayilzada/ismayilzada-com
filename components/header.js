@@ -1,13 +1,36 @@
 import Link from 'next/link'
+import {useEffect} from "react";
 
 export default function Header() {
+    useEffect(() => {
+        let body = document.querySelector('body');
+
+        const toggle = document.getElementById('toggle');
+
+        let storedTheme = localStorage.getItem("storedTheme") || "";
+        body.className = storedTheme
+        localStorage.setItem("storedTheme", storedTheme)
+
+        toggle.addEventListener("click", () => {
+            let storedTheme = localStorage.getItem("storedTheme") || "";
+
+            if (storedTheme === "light") {
+                storedTheme = ""
+            } else {
+                storedTheme = "light"
+            }
+            body.className = storedTheme
+            localStorage.setItem("storedTheme", storedTheme)
+        })
+    }, []);
+
     return (
         <nav className="level">
 
             <div className="level-left">
                 <div className="level-item">
                     <Link href="/">
-                        <p className="is-size-3">NIJAT ISMAYILZADA</p>
+                        <p className="is-size-4"><strong>NIJAT ISMAYILZADA</strong></p>
                     </Link>
                 </div>
             </div>
@@ -65,7 +88,7 @@ export default function Header() {
                                 <a id="toggle">
 
                                     <figure className="image is-32x32 ">
-                                        <img src="/assets/sun.svg" alt="sun"/>
+                                        <img src="/assets/moon.svg" alt="moon"/>
                                     </figure>
 
                                 </a>

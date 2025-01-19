@@ -1,16 +1,13 @@
-<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
-
-    <g>
-        <title>background</title>
-        <rect fill="none" id="canvas_background" height="602" width="802" y="-1" x="-1" />
+<svg viewBox="-4.16 -4.16 24.32 24.32" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#1f2424"
+     stroke-width="0.00016">
+    <g id="SVGRepo_bgCarrier" stroke-width="0" transform="translate(0,0), scale(1)">
+        <rect x="-4.16" y="-4.16" width="24.32" height="24.32" rx="12.16" fill="#1f2424" strokewidth="0"></rect>
     </g>
-    <g>
-        <title>Layer 1</title>
-        <g id="OUTLINE_copy_2">
-            <g id="svg_1">
-                <path fill="#f5f5f5" id="svg_2"
-                    d="m16,0c-8.836,0 -16,7.164 -16,16s7.164,16 16,16s16,-7.164 16,-16s-7.164,-16 -16,-16zm-4.096,21.951c-1.021,0 -1.85,-0.823 -1.85,-1.843c0,-1.015 0.829,-1.847 1.85,-1.847c1.025,0 1.852,0.833 1.852,1.847c0,1.02 -0.828,1.843 -1.852,1.843zm4.647,-0.003c0,-1.741 -0.677,-3.379 -1.904,-4.604c-1.228,-1.229 -2.859,-1.907 -4.594,-1.907l0,-2.664c5.057,0 9.173,4.116 9.173,9.175l-2.675,0zm4.723,-0.001c0,-6.193 -5.035,-11.234 -11.22,-11.233l0,-2.665c7.66,0 13.893,6.237 13.893,13.898l-2.673,0z" />
-            </g>
-        </g>
+    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+    <g id="SVGRepo_iconCarrier">
+        <path d="M3 1H1V3H3C8.52285 3 13 7.47715 13 13V15H15V13C15 6.37258 9.62742 1 3 1Z" fill="#f5f5f5"></path>
+        <path d="M3 6H1V8H3C5.76142 8 8 10.2386 8 13V15H10V13C10 9.13401 6.86599 6 3 6Z" fill="#f5f5f5"></path>
+        <path d="M3 15C4.10457 15 5 14.1046 5 13C5 11.8954 4.10457 11 3 11C1.89543 11 1 11.8954 1 13C1 14.1046 1.89543 15 3 15Z"
+              fill="#f5f5f5"></path>
     </g>
 </svg>

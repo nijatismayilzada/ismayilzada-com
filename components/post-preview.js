@@ -13,11 +13,10 @@ export default function PostPreview({
             <div className="box is-shadowless">
                 <article className="media">
                     <div className="media-content">
-                        <div className="content has-text-light">
+                        <div className="content">
                             <Link as={`/posts/${slug}`} href="/posts/[slug]">
-                                <p><strong>{title}</strong></p>
+                                <p className="is-size-5"><strong>{title}</strong></p>
                             </Link>
-                            <br/>
                             <small>
                                 <DateFormatter dateString={date}/>
                             </small>
