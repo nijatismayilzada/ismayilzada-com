@@ -207,7 +207,7 @@ export default function ThePot() {
                                             className="tag is-dark is-rounded">Kafka</span>, <span
                                             className="tag is-dark is-rounded">PostgreSQL</span>, <span
                                             className="tag is-dark is-rounded">DynamoDB</span> to build low-latency
-                                            GraphQL, REST, gRPC APIs.
+                                            GraphQL, REST, gRPC endpoints.
                                         </li>
                                     </ul>
 
