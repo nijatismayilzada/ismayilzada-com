@@ -253,7 +253,7 @@ export default function ThePot() {
                                         </li>
                                         <li>
                                             Used <span className="tag is-dark is-rounded">ActiveMQ</span> message broker
-                                            to provide async processing of order actions and <span
+                                            to provide async processing of order actions over <span
                                             className="tag is-dark is-rounded">MS SQL Server</span> database.
                                         </li>
                                     </ul>
@@ -265,8 +265,7 @@ export default function ThePot() {
                                         <li>
                                             In the Order Pipeline team, developed and maintained <span
                                             className="tag is-dark is-rounded">Java Spring</span> microservices for an
-                                            automated flow of the order progression with Netflix's <span
-                                            className="tag is-dark is-rounded">Hystrix</span>-based event-driven
+                                            automated flow of the order progression with an event-driven
                                             architecture and best warehouse selection optimisation problems.
                                         </li>
                                     </ul>
