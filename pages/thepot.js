@@ -281,6 +281,8 @@ export default function ThePot() {
                                         href="https://www.youview.com/">YouView</a></h5>
                                     <h6 className="subtitle is-6"><em>June 2015 - August 2015. London</em></h6>
 
+                                    <br/>
+
                                     <h5 className="title is-5">Junior Android Developer at <a
                                         href="https://socar.az/en/home">SOCAR</a></h5>
                                     <h6 className="subtitle is-6"><em>July 2014 - September 2014. Baku, Azerbaijan</em>
