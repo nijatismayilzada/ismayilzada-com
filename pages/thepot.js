@@ -236,7 +236,7 @@ export default function ThePot() {
                                     <h6 className="subtitle is-6"><em>July 2018 - March 2019. Manchester</em></h6>
                                     <ul>
                                         <li>
-                                            Lead a team of four to build a Customer Support web application with <span
+                                            Led a team of four to build a Customer Support web application with <span
                                             className="tag is-dark is-rounded">Java Spring</span> to answer customer
                                             requests and examine orders in a single unified application.
                                         </li>
