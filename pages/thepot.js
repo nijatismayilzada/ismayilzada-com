@@ -179,9 +179,9 @@ export default function ThePot() {
 
                                     <h4 className="title is-4">EXPERIENCE</h4>
 
-                                    <h5 className="title is-5">Software Engineer at <a
+                                    <h5 className="title is-5">Senior Software Engineer at <a
                                         href="https://deliveroo.co.uk/">Deliveroo</a></h5>
-                                    <h6 className="subtitle is-6"><em>August 2021 - ∞. Remote, London based</em></h6>
+                                    <h6 className="subtitle is-6"><em>February 2025 - ∞. Remote, London based</em></h6>
                                     <ul>
                                         <li>
                                             In Plus team, delivered a new "Diamond" premium subscription tier for UK
@@ -192,6 +192,20 @@ export default function ThePot() {
                                             className="tag is-dark is-rounded">Golang</span> architecture.
                                         </li>
                                         <li>
+                                            Using <span className="tag is-dark is-rounded">Redis</span>, <span
+                                            className="tag is-dark is-rounded">Kafka</span>, <span
+                                            className="tag is-dark is-rounded">PostgreSQL</span>, <span
+                                            className="tag is-dark is-rounded">DynamoDB</span> to build low-latency
+                                            GraphQL, REST, gRPC endpoints.
+                                        </li>
+                                    </ul>
+
+                                    <h5 className="title is-5">Software Engineer at <a
+                                        href="https://deliveroo.co.uk/">Deliveroo</a></h5>
+                                    <h6 className="subtitle is-6"><em>August 2021 - February 2025. Remote, London
+                                        based</em></h6>
+                                    <ul>
+                                        <li>
                                             Built a restaurant recommendation application that used <span
                                             className="tag is-dark is-rounded">OpenAI GPT-2/3 LLM</span> to understand
                                             and act on user prompts.
@@ -201,13 +215,6 @@ export default function ThePot() {
                                             maintained <span
                                             className="tag is-dark is-rounded">Golang</span> microservices on <span
                                             className="tag is-dark is-rounded">AWS</span>.
-                                        </li>
-                                        <li>
-                                            Using <span className="tag is-dark is-rounded">Redis</span>, <span
-                                            className="tag is-dark is-rounded">Kafka</span>, <span
-                                            className="tag is-dark is-rounded">PostgreSQL</span>, <span
-                                            className="tag is-dark is-rounded">DynamoDB</span> to build low-latency
-                                            GraphQL, REST, gRPC endpoints.
                                         </li>
                                     </ul>
 
@@ -273,27 +280,11 @@ export default function ThePot() {
                                     <h5 className="title is-5">Test & Automation Engineer at <a
                                         href="https://www.youview.com/">YouView</a></h5>
                                     <h6 className="subtitle is-6"><em>June 2015 - August 2015. London</em></h6>
-                                    <ul>
-                                        <li>
-                                            Implemented library and custom test runner with <span
-                                            className="tag is-dark is-rounded">Python</span> to execute automated tests
-                                            on Sony YouView TVs over <span
-                                            className="tag is-dark is-rounded">Android</span> Debug Bridge.
-                                        </li>
-                                    </ul>
 
                                     <h5 className="title is-5">Junior Android Developer at <a
                                         href="https://socar.az/en/home">SOCAR</a></h5>
                                     <h6 className="subtitle is-6"><em>July 2014 - September 2014. Baku, Azerbaijan</em>
                                     </h6>
-                                    <ul>
-                                        <li>
-                                            Developed <span
-                                            className="tag is-dark is-rounded">Android</span> application with ASP.NET
-                                            web service, MS SQL Server database and KSOAP to manage SOCAR's vacancy
-                                            structure.
-                                        </li>
-                                    </ul>
 
                                 </div>
                             </div>
