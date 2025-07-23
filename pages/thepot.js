@@ -185,13 +185,14 @@ export default function ThePot() {
                                     <ul>
                                         <li>
                                             In Plus team, delivered a new "Diamond" premium subscription tier for UK
-                                            customers. Migrated legacy <span
+                                            customers and annually billed subscription plans for European markets.
+                                            Migrated legacy <span
                                             className="tag is-dark is-rounded">Scala</span> and <span
                                             className="tag is-dark is-rounded">Ruby</span> systems to <span
                                             className="tag is-dark is-rounded">Golang</span> architecture.
                                         </li>
                                         <li>
-                                            Built an application that used <span
+                                            Built a restaurant recommendation application that used <span
                                             className="tag is-dark is-rounded">OpenAI GPT-2/3 LLM</span> to understand
                                             and act on user prompts.
                                         </li>
@@ -202,7 +203,8 @@ export default function ThePot() {
                                             className="tag is-dark is-rounded">AWS</span>.
                                         </li>
                                         <li>
-                                            Using <span className="tag is-dark is-rounded">Kafka</span>, <span
+                                            Using <span className="tag is-dark is-rounded">Redis</span>, <span
+                                            className="tag is-dark is-rounded">Kafka</span>, <span
                                             className="tag is-dark is-rounded">PostgreSQL</span>, <span
                                             className="tag is-dark is-rounded">DynamoDB</span> to build low-latency
                                             GraphQL, REST, gRPC APIs.
