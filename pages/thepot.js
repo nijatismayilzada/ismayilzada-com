@@ -175,9 +175,10 @@ export default function ThePot() {
                                     based</em></h6>
                                 <ul className="mt-2">
                                     <li>
-                                        Built a restaurant recommendation engine in Go that used <span
-                                        className="tag is-dark is-rounded">OpenAI GPT-3 LLM</span> to
-                                        understand and act on user prompts.
+                                        Built a restaurant recommendation engine in <span
+                                        className="tag is-dark is-rounded">Go</span> that used <span
+                                        className="tag is-dark is-rounded">OpenAI GPT-3 LLM</span> to understand and act
+                                        on user prompts.
                                     </li>
                                     <li>
                                         Owned reviews & ratings microservices fleet (<span
