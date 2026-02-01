@@ -10,7 +10,7 @@ export default function PostPreview({
     return (
         <div>
 
-            <div className="box is-shadowless">
+            <div className="box is-shadowless mb-4">
                 <article className="media">
                     <div className="media-content">
                         <div className="content">
