@@ -81,7 +81,7 @@ Even if you buy good beans but do not weigh them and properly dial in your grind
 
 If you have done all the previous levels and are committed to this, welcome to spending hundreds more pounds. Not only will you waste weeks researching a good espresso machine, you may even decide to upgrade your grinder. There is a whole r/espresso subreddit waiting to roast your questions and choices.
 
-I cannot tell you what to buy, as there are multiple options for every budget and style. However, I will give you one piece of advice: whatever you do, make sure you buy the espresso machine and grinder as separate devices. Do not buy machines like the Sage/Breville Barista Express that come with a built-in grinder.
+I cannot tell you what to buy, as there are multiple options, guides and reviews for every budget and style. However, I will give you one piece of advice: whatever you do, make sure you buy the espresso machine and grinder as separate devices. Do not buy machines like the Sage/Breville Barista Express that come with a built-in grinder.
 
 ![Barista Express](/assets/barista-express.jpg)
 
