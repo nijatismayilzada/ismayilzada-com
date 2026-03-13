@@ -41,7 +41,7 @@ export default function Header() {
                         <tbody>
                         <tr>
                             <td>
-                                <Link href="/thepot">
+                                <Link href="/cv">
 
                                     <figure className="image is-32x32 ">
                                         <img src="/assets/pot.svg" alt="pot"/>
