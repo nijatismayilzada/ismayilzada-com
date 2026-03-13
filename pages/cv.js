@@ -8,19 +8,15 @@ function ContactItem({href, icon, alt, text}) {
         </figure>
     );
 
-    const textEl = (
-        <div className="content">
-            <p>{text}</p>
-        </div>
-    );
-
     return (
         <div className="columns is-gapless is-mobile mb-1">
             <div className="column is-2">
                 {href ? <a href={href}>{iconEl}</a> : iconEl}
             </div>
             <div className="column">
-                {href ? <a href={href}>{textEl}</a> : textEl}
+                <div className="content">
+                    {href ? <a href={href}><p>{text}</p></a> : <p>{text}</p>}
+                </div>
             </div>
         </div>
     );
